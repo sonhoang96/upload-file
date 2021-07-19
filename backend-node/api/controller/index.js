@@ -6,6 +6,7 @@ exports.upload_image = (req, res, body) => {
     })
 }
 
+//link tới file html để test api
 exports.get_link = (req, res) => {
     res.sendFile(__dirname + '/index.html');
 }

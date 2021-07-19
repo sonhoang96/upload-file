@@ -17,7 +17,8 @@ class ItemContainer extends React.Component {
 }
 const mapStateToProps = (state) => {
     return {
-        listData: state.items.listData
+        listData: state.items.listData,
+        isLoading: state.items.isLoading
     }
 }
 const mapDispatchToProps = (dispatch) => {
